@@ -1,0 +1,1 @@
+# django_cat_collector

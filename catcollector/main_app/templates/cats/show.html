@@ -1,4 +1,9 @@
-<h2>Name: {{ cat.name }}</h2>
-<p>breed: {{ cat.breed }}</p>
-<p>description: {{ cat.description }}</p>
-<p>age: {{ cat.age }}</p>
+{% extends 'base.html' %}
+{% block content %}
+
+    <h2>Name: {{ cat.name }}</h2>
+    <p>breed: {{ cat.breed }}</p>
+    <p>description: {{ cat.description }}</p>
+    <p>age: {{ cat.age }}</p>
+
+{% endblock %}
